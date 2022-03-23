@@ -66,7 +66,7 @@ else{
 }
 secondsong.onclick = function(){
   theimage.src = "cover/2.jpg";
-  audio.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/song/2.mp3";
+  audio.src = "song/2.mp3";
   barr.value=0;
   nameofsong.innerText = "Tum Ho";
   nameofartist.innerText = "Mohit Chauhan,Suzanne D'Mello";
@@ -85,7 +85,7 @@ secondsong.onclick = function(){
   }
   thirdsong.onclick = function(){
     theimage.src = "cover/3.jpg";
-    audio.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/song/3.mp3";
+    audio.src = "song/3.mp3";
     nameofsong.innerText = " Tum Ho Toh";
     nameofartist.innerText = "Farhan Akhtar";
     if(audio.paused)
@@ -104,7 +104,7 @@ secondsong.onclick = function(){
     }
     fourthsong.onclick = function(){
       theimage.src = "cover/4.jpg";
-      audio.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/song/4.mp3";
+      audio.src = "song/4.mp3";
       nameofsong.innerText = "Aaoge Tum Kabhi";
       nameofartist.innerText = "The Local Train";
       if(audio.paused)
@@ -124,7 +124,7 @@ secondsong.onclick = function(){
       
       fifthsong.onclick = function(){
         theimage.src = "cover/5.jpg";
-        audio.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/song/5.mp3";
+        audio.src = "song/5.mp3";
         nameofsong.innerText = "Balam Pichkari";
         nameofartist.innerText = "Vishal Dadlani,Shalmali Kholgade";
         if(audio.paused)
