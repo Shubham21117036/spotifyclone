@@ -1,5 +1,5 @@
 
-var audio = new Audio("file:///C:/music%20web/song/1.mp3");
+var audio = new Audio("song/1.mp3");
 var giffy = document.getElementById('gif');
 var masterPlay = document.getElementById('playbutton');
 var barr = document.getElementById('bar');
@@ -50,8 +50,8 @@ var nameofsong = document.getElementById("name1")
 var nameofartist = document.getElementById("artist1");
 
 firstsong.onclick = function(){
-theimage.src = "file:///C:/music%20web/cover/1.jpg";
-audio.src = "file:///C:/music%20web/song/1.mp3";
+theimage.src = "cover/1.jpg";
+audio.src = "song/1.mp3";
 barr.value = 0;
 nameofsong.innerText = "Agar Tum Saath Ho";
 nameofartist.innerText = "Alka Yagnik,Arjit Singh";
@@ -71,8 +71,8 @@ else{
 
 }
 secondsong.onclick = function(){
-  theimage.src = "file:///C:/music%20web/cover/2.jpg";
-  audio.src = "file:///C:/music%20web/song/2.mp3";
+  theimage.src = "cover/2.jpg";
+  audio.src = "song/2.mp3";
   barr.value=0;
   nameofsong.innerText = "Tum Ho";
   nameofartist.innerText = "Mohit Chauhan,Suzanne D'Mello";
@@ -90,8 +90,8 @@ secondsong.onclick = function(){
   } 
   }
   thirdsong.onclick = function(){
-    theimage.src = "file:///C:/music%20web/cover/3.jpg";
-    audio.src = "file:///C:/music%20web/song/3.mp3";
+    theimage.src = "cover/3.jpg";
+    audio.src = "song/3.mp3";
     nameofsong.innerText = " Tum Ho Toh";
     nameofartist.innerText = "Farhan Akhtar";
     if(audio.paused)
@@ -109,8 +109,8 @@ secondsong.onclick = function(){
     
     }
     fourthsong.onclick = function(){
-      theimage.src = "file:///C:/music%20web/cover/4.jpg";
-      audio.src = "file:///C:/music%20web/song/4.mp3";
+      theimage.src = "cover/4.jpg";
+      audio.src = "song/4.mp3";
       nameofsong.innerText = "Aaoge Tum Kabhi";
       nameofartist.innerText = "The Local Train";
       if(audio.paused)
@@ -129,8 +129,8 @@ secondsong.onclick = function(){
       
       
       fifthsong.onclick = function(){
-        theimage.src = "file:///C:/music%20web/cover/5.jpg";
-        audio.src = "file:///C:/music%20web/song/5.mp3";
+        theimage.src = "cover/5.jpg";
+        audio.src = "song/5.mp3";
         nameofsong.innerText = "Balam Pichkari";
         nameofartist.innerText = "Vishal Dadlani,Shalmali Kholgade";
         if(audio.paused)
