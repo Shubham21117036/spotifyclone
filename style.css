@@ -1,0 +1,288 @@
+
+@font-face {
+    font-family:fontop;
+    src: url(font.otf);
+  }
+*{
+    margin: 0;
+    padding :0;
+    font-family: fontop;
+}
+
+.background1{
+background-color:black ;
+margin:0px 0px ;
+height:100vh;
+width: 100%;
+}
+.background2{
+background-color:blueviolet ;
+margin:0px 0px ;
+height:60vh;
+width: 100%;
+    }
+.background3{
+background-color:white ;
+margin:0px 0px ;
+height:60vh;
+width: 100%;
+}
+.background4{
+background-color:black;
+margin:0px 0px ;
+height:30vh;
+width: 100%;
+}
+.navbar ul li a{
+text-decoration:none ;    
+color:whitesmoke;
+margin: 0px 15px;
+
+}
+.navbar ul li{
+list-style:none ;   
+display: inline-block;
+
+}
+.navbar{
+width: 30%;    
+padding: 15px 0px;
+display :flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+left: 800px;
+top:-58px;
+}
+#logo{
+height:60px;
+padding:5px;
+
+}
+.player{
+width:40%;
+padding: 10px ;
+height: 77%;
+position:absolute;
+right:4px;
+bottom:20px;
+}
+.songlist{
+
+width:52%;
+padding: 10px ;
+height: 77%;
+position:absolute;
+left:4px;
+bottom:20px;
+
+float: left;
+}
+
+#playbutton{
+color:whitesmoke;
+position: absolute;
+bottom: 30px;
+right:268px;
+}
+#bar{
+width:80%;    
+position: absolute;
+bottom: 80px;
+right:50px;
+}
+#bar:hover{
+    cursor:pointer;
+}
+#playbutton:hover{
+    cursor: pointer;
+}
+#image{
+width:100%;
+height:300px;
+padding: 4px;
+}
+#gif{
+height:13%;
+width: auto;
+position:absolute;
+bottom:15px;
+left:100px;
+opacity: 0;
+transition: opacity 0.4s ease-in;
+}
+.littleimage{
+height:50px;
+width:50px;
+}
+
+.song{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+position: relative;
+left:20px;
+height:10%;
+border: 2px solid whitesmoke;
+border-radius: 4px;
+padding:5px;
+margin-bottom: 2px;
+}
+.song:hover{
+    box-shadow: 3px 3px 0px whitesmoke;
+   
+}
+.song:hover{
+cursor:pointer;
+}
+.name{
+    color: whitesmoke;
+    font-family:fontop;
+    font-weight: bold;
+    font-size: larger;
+ }
+
+.artist{
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 500;
+   opacity: 0.7;
+   font-size: 0.9rem;
+}
+#heart{
+   color:whitesmoke;
+}
+
+#plus{
+    color: whitesmoke;
+}
+#icons{
+
+display:inline-block;
+margin: 15px 15px;
+
+}
+#name1{
+color:crimson;
+font-family:fontop;
+font-weight: bold;
+font-size: x-large;
+
+}
+.items{
+border: 2px solid whitesmoke;
+font-size: xx-large;
+font-weight: bold;
+position: relative;
+
+}
+.mainname{
+position: relative;
+left:29%;
+width:40%;
+}
+.asliwhy{
+position:relative;
+padding-left:550px;
+padding-top: 50px;
+font-size: 3rem;
+font-weight:bolder;
+}
+.why{
+display:flex;
+align-items: center;
+padding-left: 60px;
+
+
+justify-content: space-between;
+}
+.para{
+padding-left:40px;
+padding-top: 50px;
+
+}
+.back3line{
+padding-left: 500px;
+padding-top: 130px;
+ font-weight: bolder;
+ font-size: 3rem;
+}
+.items{
+  height:170px;
+  width:170px;
+  border-radius: 50%;
+  margin:40px 40px;  
+  padding: 10px 20px 20px 20px;
+}
+#playlist{
+color:whitesmoke;
+
+}
+#artist1{
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 500;
+   opacity: 0.9;
+   font-size: 1rem;
+   
+}
+.maintitle{
+    position: relative;
+    left:29%;
+    width:40%;
+}
+#heart1:hover{
+cursor:pointer;
+}
+#heart2:hover{
+    cursor:pointer;
+    }
+    #heart3:hover{
+        cursor:pointer;
+        }
+        #heart4:hover{
+            cursor:pointer;
+            }
+            #heart5:hover{
+                cursor:pointer;
+                }
+.heartdiv5{
+position:absolute;
+right:100px;
+top:301px;
+
+}
+.heartdiv1{
+position:absolute;
+top:35px;
+right:100px;
+}
+.heartdiv2{
+position:absolute;
+top:101px;
+right:100px;
+}
+.heartdiv3{
+    position:absolute;
+    top:167px;
+    right:100px;
+    }
+    .heartdiv4{
+        position:absolute;
+        top:233px;
+        right:100px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
