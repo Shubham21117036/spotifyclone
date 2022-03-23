@@ -1,5 +1,5 @@
 
-var audio = new Audio("https://github.com/Shubham21117036/spotifyclone/blob/main/song/1.mp31.mp3");
+var audio = new Audio("https://github.com/Shubham21117036/spotifyclone/blob/main/song/1.mp3");
 var giffy = document.getElementById('gif');
 var masterPlay = document.getElementById('playbutton');
 var barr = document.getElementById('bar');
