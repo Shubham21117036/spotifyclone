@@ -1,5 +1,5 @@
 
-var audio = new Audio("https://github.com/Shubham21117036/spotifyclone/blob/main/song/1.mp3");
+var audio = new Audio("song/1.mp3");
 var giffy = document.getElementById('gif');
 var masterPlay = document.getElementById('playbutton');
 var barr = document.getElementById('bar');
@@ -9,15 +9,6 @@ var heart2 = document.getElementById("heart2");
 var heart3 = document.getElementById("heart3");
 var heart4 = document.getElementById("heart4");
 var heart5 = document.getElementById("heart5");
-let songs=[
-  {songname:"Agar Tum Saath Ho",filepath:"03 Tum Saath Ho - Tamasha (Arijit Singh) 320Kbps.mp3",coverpath:"agar tum saath ho.jpg"},
-  {songname:"Tum Ho",filepath:"22   Tum Ho (Rockstar).mp3",coverpath:"tum ho.jpg"},
-  {songname:"Tum Ho Toh",filepath:"ro.mp3",coverpath:"rock on.webp"},
-  {songname:"Aaoge Tum Kabhi",filepath:"128-Aaoge Tum Kabhi - Angry Indian Goddesses 128 Kbps.mp3",coverpath:"the local train.jpg"},
-  {songname:"Balam Pichkari",filepath:"Balam Pichkari (Full Song).mp3",coverpath:"balam pichkari.jpg"}
-
-]
-
 
 
 masterPlay.addEventListener('click',()=>{
@@ -53,8 +44,8 @@ var nameofsong = document.getElementById("name1")
 var nameofartist = document.getElementById("artist1");
 
 firstsong.onclick = function(){
-theimage.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/cover/1.jpg";
-audio.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/song/1.mp3";
+theimage.src = "cover/1.jpg";
+audio.src = "song/1.mp3";
 barr.value = 0;
 nameofsong.innerText = "Agar Tum Saath Ho";
 nameofartist.innerText = "Alka Yagnik,Arjit Singh";
@@ -74,7 +65,7 @@ else{
 
 }
 secondsong.onclick = function(){
-  theimage.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/cover/2.jpg";
+  theimage.src = "cover/2.jpg";
   audio.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/song/2.mp3";
   barr.value=0;
   nameofsong.innerText = "Tum Ho";
@@ -93,7 +84,7 @@ secondsong.onclick = function(){
   } 
   }
   thirdsong.onclick = function(){
-    theimage.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/cover/3.jpg";
+    theimage.src = "cover/3.jpg";
     audio.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/song/3.mp3";
     nameofsong.innerText = " Tum Ho Toh";
     nameofartist.innerText = "Farhan Akhtar";
@@ -112,7 +103,7 @@ secondsong.onclick = function(){
     
     }
     fourthsong.onclick = function(){
-      theimage.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/cover/4.jpg";
+      theimage.src = "cover/4.jpg";
       audio.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/song/4.mp3";
       nameofsong.innerText = "Aaoge Tum Kabhi";
       nameofartist.innerText = "The Local Train";
@@ -132,7 +123,7 @@ secondsong.onclick = function(){
       
       
       fifthsong.onclick = function(){
-        theimage.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/cover/5.jpg";
+        theimage.src = "cover/5.jpg";
         audio.src = "https://github.com/Shubham21117036/spotifyclone/blob/main/song/5.mp3";
         nameofsong.innerText = "Balam Pichkari";
         nameofartist.innerText = "Vishal Dadlani,Shalmali Kholgade";
