@@ -17,7 +17,7 @@ let songs=[
   {songname:"Balam Pichkari",filepath:"Balam Pichkari (Full Song).mp3",coverpath:"balam pichkari.jpg"}
 
 ]
-var playPromise = document.querySelector('Audio').play();
+
 
 
 masterPlay.addEventListener('click',()=>{
